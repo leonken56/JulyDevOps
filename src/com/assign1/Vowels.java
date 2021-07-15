@@ -1,23 +1,23 @@
-package devops;
-
+package com.assign1;
 import java.util.Scanner;
 
-public class words {
+public class Vowels {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner myObj = new Scanner(System.in); 
 		System.out.println("Please enter a string: ");
 		String inputString = myObj.nextLine();  // Read user input
+		char vowel[] = {'u','e','o','a','i','U','E','O','A','I'};
 		int n = inputString.length();
-		Scanner words = new Scanner(inputString).useDelimiter(" ");
+		int m = 10;
 		int count = 0;
-		while (words.hasNext())
-		{
-			count++;
-			words.next();
-		}
-		System.out.println("Number of words: "+ count);
+		for (int i=0; i<n; i++ )
+			for (int j=0; j<m; j++)
+				if (inputString.charAt(i)==vowel[j])
+					count++;
+		System.out.println("Number of vowel character: "+ count);
+		
 	}
 
 }

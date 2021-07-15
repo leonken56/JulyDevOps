@@ -1,4 +1,4 @@
-package devops;
+package com.assign1;
 
 import java.util.Scanner;
 
