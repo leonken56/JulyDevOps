@@ -9,6 +9,7 @@ public interface InterfaceBankDAO {
 	   public void deleteAccount(String accountnumber);
 	   public void addNewAccount(Bank account);
 	   public void deposit(Bank account, double amount);
-	   public void displaybalance(Bank account);
+	   public void displayinfo(String name);
+	   public void displaybalance(String accountnumber);
 	}
 
