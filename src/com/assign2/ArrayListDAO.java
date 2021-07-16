@@ -64,7 +64,7 @@ public class ArrayListDAO implements InterfaceBankDAO {
 		// TODO Auto-generated method stub
 	    for (Bank x : ALLBANKUSER) {
 	    	String curName = x.getCustomername();
-	        if (curName = name)
+	        if (curName == name)
 	        	x.printinfo();
 	      }
 		
