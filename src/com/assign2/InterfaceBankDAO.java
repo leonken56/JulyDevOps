@@ -1,4 +1,3 @@
-package com.assign2;
 import java.util.List;
 public interface InterfaceBankDAO {
 	   public List<Bank> getAllAccounts();
@@ -11,5 +10,6 @@ public interface InterfaceBankDAO {
 	   public void deposit(Bank account, double amount);
 	   public void displayinfo(String name);
 	   public void displaybalance(String accountnumber);
+	   public void displayall();
 	}
 

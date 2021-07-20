@@ -1,5 +1,3 @@
-package com.assign2;
-
 public class Bank {
 	private String accountnumber;
 	private double balance;
