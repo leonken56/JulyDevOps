@@ -7,7 +7,7 @@ public class Bank {
 	private String email;
 	private String phonenumber;
 	
-	bank(String accountnumber, double balance, String customername, String email, String phonenumber){
+	Bank(String accountnumber, double balance, String customername, String email, String phonenumber){
 		this.accountnumber = accountnumber;
 		this.balance = balance;
 		this.customername = customername;
